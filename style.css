@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Luxurious+Roman&display=swap');
+
+@font-face {
+    font-family: gideon;
+    src:url('Gideon_Roman/GideonRoman-Regular.ttf');
+}
+
+:root{
+    --fonte-padrao: gideon, serif;
+}
+body{
+    background-image: url('chamado-de-Deus.jpg');
+    background-position: 50% 13%;
+    background-size: cover;
+}
+
+h1, h2{
+    padding: 20px;
+    text-align: center;
+    font-family:var(--fonte-padrao);
+    
+}
+.salmo{
+    background-color: aliceblue;
+}
+
