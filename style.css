@@ -11,6 +11,12 @@
 :root{
     --fonte-padrao: gideon, serif;
 }
+header{
+    padding: 20px;
+    margin: 10px;
+gap: ;
+
+}
 body{
     background-image: url('chamado-de-Deus.jpg');
     background-position: 50% 13%;
