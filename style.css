@@ -28,15 +28,23 @@ h1, h2{
     padding: 20px;
     text-align: center;
     font-family:var(--fonte-padrao);
+    color-scheme: initial;
     
 }
 nav > a
 {
     color:  black;
     text-decoration: none;
+    padding: 20px;
+    
     
 }
 .salmo{
     background-color: aliceblue;
 }
+nav > a:hover {
+    color: chartreuse;
+    
+}
+
 
