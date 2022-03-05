@@ -18,12 +18,16 @@ header{
 
 }
 body{
-    background-image: url('chamado-de-Deus.jpg');
+    background-image: url('#');
     background-position: 50% 13%;
     background-size: cover;
 }
 
-
+.conteudo{
+    background-color: aquamarine;
+    opacity: 50%;
+    width: 800px;
+}
 h1, h2{
     padding: 20px;
     text-align: center;
@@ -31,6 +35,7 @@ h1, h2{
     color-scheme: initial;
     
 }
+
 nav > a
 {
     color:  black;
