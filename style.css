@@ -11,22 +11,13 @@
 :root{
     --fonte-padrao: gideon, serif;
 }
-header{
-    padding: 20px;
-    margin: 10px;
-
-
-}
-body{
-    background-image: url('#');
-    background-position: 50% 13%;
-    background-size: cover;
-}
-
 .conteudo{
-    background-color: rgb(13, 194, 134);
-    opacity: 50%;
-    width: 800px;
+    
+}
+
+body{
+    background-image: url('chamado-de-Deus.jpg');
+    
 }
 h1, h2{
     padding: 20px;
@@ -48,8 +39,17 @@ nav > a
     background-color: aliceblue;
 }
 nav > a:hover {
-    color: chartreuse;
+    color: rgb(252, 93, 30);
     
 }
+.centralizar{
+    background-color: rgba(120, 219, 219, 0.466);
+    opacity: 40%;
+    padding: 60px;
+    margin: 50px;
+    border-radius: 10px;
+    
+}
+
 
 
