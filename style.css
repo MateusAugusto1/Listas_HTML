@@ -21,6 +21,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
+    font-style: unset;
 
     
 }
@@ -37,6 +38,8 @@ h1{
     justify-content: space-around;
     margin: 20px;
     padding:10px;
+    font-size: 20px;
+    
 }
 
 .centralizar{
@@ -45,8 +48,17 @@ h1{
 }
 
 .container :hover{
-    color: rgb(128, 115, 0);
-    text-decoration: dotted;
+    color: rgb(128, 15, 0);
+    text-decoration: none;
+
+}
+.container:focus {
+    color: rgb(0, 128, 0);
+    
+}
+.container > a:active{
+    color: rgb(255, 0, 221);
+    
 }
 
 h2{
