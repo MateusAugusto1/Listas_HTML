@@ -50,7 +50,10 @@ h1{
 }
 
 h2{
+    margin: 30px;
+    color: rgba(19, 131, 19, 0.808);
     
+
 }
 pre{
     text-align: left;
