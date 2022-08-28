@@ -12,7 +12,11 @@
     --fonte-padrao: gideon, serif;
 }
 
-
+.title{
+    font-size: 40px;
+    margin: 20px;
+    
+}
 body{
     background-image: url('chamado-de-Deus.jpg');
     background-position: center;
