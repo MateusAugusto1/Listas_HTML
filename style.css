@@ -26,6 +26,7 @@ body{
     display: flex;
     justify-content: center;
     font-style: unset;
+    padding-top:50px;
 
     
 }
@@ -43,39 +44,46 @@ h1{
     margin: 20px;
     padding:10px;
     font-size: 20px;
-    
+  
 }
+.container a{
+    text-decoration: none;
+    border: 1px solid  rgb(183, 153, 255);
+    padding: 10px;
+    border-radius: 23px;
+    color: rgb(183, 153, 255);
+    font-weight: bolder;
+}
+
 
 .centralizar{
     text-align: center;
     background-color: rgba(209, 150, 116, 0.267);
 }
 
-.container :hover{
-    color: rgb(128, 15, 0);
-    text-decoration: none;
-
-}
 .container:focus {
-    color: rgb(0, 128, 0);
+    color: rgb(75, 213, 75);
     
 }
 .container > a:active{
-    color: rgb(255, 0, 221);
+    color: rgb(207, 211, 122);
     
 }
 
 h2{
+    color: rgb(255, 255, 255);
     margin: 30px;
-    color: rgba(19, 131, 19, 0.808);
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;    
 
 }
 pre{
     text-align: left;
-    letter-spacing: 1.3px;
-    line-height: 25px;
+    letter-spacing: 1.6px;
+    line-height: 30px;
+   
 }
+
 
 
 
