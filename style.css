@@ -46,12 +46,18 @@ h1{
     font-size: 20px;
   
 }
+a:hover{
+    font-size: 24px;
+    border: 1px solid  rgb(87, 98, 34);
+    color: rgb(0, 0, 0);
+}
+
 .container a{
     text-decoration: none;
-    border: 1px solid  rgb(183, 153, 255);
+    border: 1px solid  rgb(164, 175, 114);
     padding: 10px;
     border-radius: 23px;
-    color: rgb(183, 153, 255);
+    color: rgb(143, 152, 36);
     font-weight: bolder;
 }
 
