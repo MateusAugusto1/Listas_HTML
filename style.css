@@ -53,22 +53,29 @@ a:hover{
 }
 
 .container a{
+    font-size: 10px;
     text-decoration: none;
     border: 1px solid  rgb(164, 175, 114);
     padding: 10px;
     border-radius: 23px;
     color: rgb(143, 152, 36);
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
 
 .centralizar{
+    width: 50%;
     text-align: center;
-    background-color: rgba(209, 150, 116, 0.267);
+    background-color: rgba(217, 157, 122, 0.267);
 }
 
 .container:focus {
-    color: rgb(75, 213, 75);
+    color: rgb(45, 146, 45);
     
 }
 .container > a:active{
@@ -87,6 +94,7 @@ pre{
     text-align: left;
     letter-spacing: 1.6px;
     line-height: 30px;
+    font-size: 9.5px;
    
 }
 
