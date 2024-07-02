@@ -25,6 +25,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-style: unset;
     padding-top:50px;
 
@@ -38,6 +39,8 @@ h1{
     text-align: center;
 
 }
+
+
 .container{
     display: flex;
     justify-content: space-around;
