@@ -29,6 +29,7 @@ body{
     font-style: unset;
     padding-top:50px;
 
+
     
 }
 h1{
@@ -74,7 +75,8 @@ a:hover{
 .centralizar{
     width: 50%;
     text-align: center;
-    background-color: rgba(217, 157, 122, 0.267);
+    background-color: rgba(185, 170, 162, 0.267);
+    border-radius: 30px;
 }
 
 .container:focus {
